@@ -18,14 +18,7 @@ dependencies:
   - jupyterlab_vim
   - jupyterlab-lsp
   - python-lsp-server
-  - pygit2
-  - pytest
-  - pytest-cov
-  - hypothesis
-  - pre-commit
-  - mypy
   # ui
-  - omegaconf
   - tqdm
   - click
   - rich
