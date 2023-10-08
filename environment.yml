@@ -1,0 +1,59 @@
+name: hep
+variables:
+  JUPYTER_PLATFORM_DIRS: 1
+  PYTHONBREAKPOINT: ipdb.set_trace
+channels:
+  - conda-forge
+  - numba
+dependencies:
+  # python and install
+  - python=3.11
+  - pip
+  - setuptools
+  # developer tools
+  - ipython
+  - ipywidgets
+  - ipdb
+  - jupyterlab
+  - jupyterlab_vim
+  - jupyterlab-lsp
+  - python-lsp-server
+  - pygit2
+  - pytest
+  - pytest-cov
+  - hypothesis
+  - pre-commit
+  - mypy
+  # ui
+  - omegaconf
+  - tqdm
+  - click
+  - rich
+  - colour
+  - webcolors
+  - deprecation
+  - tabulate
+  - dash
+  - more-itertools
+  - typing_extensions
+  # numerical
+  - numpy
+  - awkward
+  - pandas
+  - numba
+  - icc_rt
+  - lxml
+  - h5py
+  - vector
+  # visualisation
+  - plotly
+  - matplotlib
+  - seaborn
+  - pyvis
+  # hep
+  - pythia8
+  - pip:
+    - graphicle
+    - heparchy
+    - showerpipe
+    - colliderscope
