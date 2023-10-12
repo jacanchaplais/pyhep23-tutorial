@@ -1,20 +1,18 @@
-name: hep
 variables:
   JUPYTER_PLATFORM_DIRS: 1
-  PYTHONBREAKPOINT: ipdb.set_trace
 channels:
   - conda-forge
   - numba
 dependencies:
   # python and install
-  # - python=3.11
-  # - pip
-  # - setuptools
+  - python=3.11
+  - pip
+  - setuptools
   # developer tools
-  # - ipython
-  # - ipywidgets
-  # - ipdb
-  # - jupyterlab
+  - ipython
+  - ipywidgets
+  - ipdb
+  - jupyterlab
   - jupyterlab_vim
   - jupyterlab-lsp
   - python-lsp-server
@@ -26,7 +24,7 @@ dependencies:
   - webcolors
   - deprecation
   - tabulate
-  # - dash
+  - dash
   - more-itertools
   - typing_extensions
   # numerical
