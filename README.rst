@@ -1,5 +1,5 @@
-PyHEP 2023 tutorial
-===================
+PyHEP 2023: Unified and semantic processing for heterogeneous Monte-Carlo data
+==============================================================================
 
 
 
